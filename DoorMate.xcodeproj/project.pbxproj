@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4327BD2CB4ABFC00E1B450 /* OpenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4327BC2CB4ABFC00E1B450 /* OpenButton.swift */; };
+		9E4327C32CB4B7E900E1B450 /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4327C22CB4B7E900E1B450 /* UnlockView.swift */; };
+		9E4327C52CB4BD7D00E1B450 /* DoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4327C42CB4BD7D00E1B450 /* DoorView.swift */; };
+		9E4327C72CB4BEC000E1B450 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4327C62CB4BEC000E1B450 /* SettingsView.swift */; };
 		9E5837862CB3C34F007F84EB /* DoorMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5837852CB3C34F007F84EB /* DoorMateApp.swift */; };
 		9E5837882CB3C34F007F84EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5837872CB3C34F007F84EB /* ContentView.swift */; };
 		9E58378A2CB3C34F007F84EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5837892CB3C34F007F84EB /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E4327BC2CB4ABFC00E1B450 /* OpenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenButton.swift; sourceTree = "<group>"; };
+		9E4327C22CB4B7E900E1B450 /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
+		9E4327C42CB4BD7D00E1B450 /* DoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorView.swift; sourceTree = "<group>"; };
+		9E4327C62CB4BEC000E1B450 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9E5837822CB3C34F007F84EB /* DoorMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5837852CB3C34F007F84EB /* DoorMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorMateApp.swift; sourceTree = "<group>"; };
 		9E5837872CB3C34F007F84EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				9E5837852CB3C34F007F84EB /* DoorMateApp.swift */,
+				9E4327C22CB4B7E900E1B450 /* UnlockView.swift */,
+				9E4327C62CB4BEC000E1B450 /* SettingsView.swift */,
+				9E4327C42CB4BD7D00E1B450 /* DoorView.swift */,
 				9E5837872CB3C34F007F84EB /* ContentView.swift */,
+				9E4327BC2CB4ABFC00E1B450 /* OpenButton.swift */,
 				9E5837892CB3C34F007F84EB /* Assets.xcassets */,
 				9E58378B2CB3C34F007F84EB /* Preview Content */,
 			);
@@ -259,6 +271,10 @@
 			files = (
 				9E5837882CB3C34F007F84EB /* ContentView.swift in Sources */,
 				9E5837862CB3C34F007F84EB /* DoorMateApp.swift in Sources */,
+				9E4327C32CB4B7E900E1B450 /* UnlockView.swift in Sources */,
+				9E4327C72CB4BEC000E1B450 /* SettingsView.swift in Sources */,
+				9E4327BD2CB4ABFC00E1B450 /* OpenButton.swift in Sources */,
+				9E4327C52CB4BD7D00E1B450 /* DoorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,13 +438,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DoorMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQ44SDS43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,13 +467,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DoorMate/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQ44SDS43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
